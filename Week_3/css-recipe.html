@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lightbulb Recipes</title>
+    <meta name="author" content="Hui Wah Chiang">
+
+    <style type: text/css>
+    * {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+/*        background-color:cornflowerblue;*/
+    }
+    h1{
+        color: #000000;
+        background-color: rgba(255,255,0,0.3);
+        width:50%;
+         height:50px;
+         opacity:2;
+         position:relative;
+         margin:0;
+         padding:auto;
+         top:10px;
+         left:0;
+    }
+    
+    h2,
+    h3 {
+        color: #000000;
+    }
+    
+    body{
+        background-color: azure;
+    }
+    .ingredients{
+        background-color: rgba(255,255,0 , 0.3);
+/*
+        width: 600 px;
+        margin: 10px;
+        padding: 10px;
+        float: left;
+*/
+    }
+    .cooking-directions {
+        background-color: rgba(255,255,0 , 0.3);
+    }
+    #navig{
+        float:right;
+        font-size:20px;
+        background-color: rgba(255,255,0 , 0.3);
+    }
+    #leftcolumn{
+        width: 600px;
+        margin: 10px;
+        padding: 10px;
+        float: left;
+    }
+
+    #rightcolumn{
+        width: 320px;
+        padding: 10px;
+        margin: 10px;
+        float: right;
+    }  
+
+    .box{
+        width: 100px;
+        height: 100px;
+/*        float: left;*/
+        margin:10px;
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .clear{
+        clear:both;
+    }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class = "leftcolumn">
+        <h1>Lightbulb Recipes</h1>
+        </div>
+        <nav>
+            <div class = "rightcolumn">
+            <ul id = "navig">
+                <li><a href="#">Other Recipes:</a>
+                    <ul>
+                        <li>
+                            <a href="#">Dinner</a></li>
+                        <li>
+                            <a href="#">BBQ and Grilling</a></li>
+                        <li>
+                            <a href="#">Quick and easy</a></li>
+                        <li>
+                            <a href="#">Slow Cooking</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Customer Support</a></li>
+                <ul>
+                    <li><a href="#">About us</a>
+                    <li><a href="#">Advertising</a></ul>
+                    <li><a href="#">Contact Us</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="leftcolumn">
+            <h2>Sirloin Steak</h2>
+        <figure>
+            <div class="img-container">
+                <img src="http://www.omahasteaks.com/gifs/recipes/390x250/ts022.jpg" title="Sirloin Steak">
+            </div>
+            <figcaption><em>Medium rare sirloin steak.</em></figcaption>
+        </figure>
+        </div>
+<!--          <div id = "rightcolumn">-->
+            <div class="ingredients">
+                <h3> Ingredients </h3>
+                <ul>
+                    <li> 1/2 cup butter</li>
+                    <li> 2 teaspoons garlic powder</li>
+                    <li> 4 cloves garlic, minced</li>
+                    <li> 4 pounds beef top sirloin steaks</li>
+                    <li> salt and pepper</li>
+                </ul>
+            </div>
+<!--          </div>-->
+        <div class="leftcolumn">
+          <div class="cooking-directions">
+            <h3>Cooking Directions</h3>
+            <p> 1. Preheat an outdoor grill for high heat.</p>
+            <p> 2. In a small saucepan, melt butter over medium-low heat with garlic powder and minced garlic. Set aside.</p>
+            <p> 3. Sprinkle both sides of each steak with salt and pepper.</p>
+            <p> 4. Grill steaks 4 to 5 minutes per side, or to desired doneness. When done, transfer to warmed plates. Brush tops liberally with garlic butter, and allow to rest for 2 to 3 minutes before serving.</p>
+          </div>
+        </div>
+        <br class="clear">
+    </main>
+    <footer>
+        <span>&copy;Easy-recipes 2017</span>
+        <span>
+        <a href="https://www.facebook.com" target="_blank">
+        <img src="https://images.seeklogo.net/2016/09/facebook-icon-preview-1.png" width="25px"></a>
+        </a>
+        </a>
+        <a href="https://www.instagram.com" target= "_blank">
+        <img src="https://pbs.twimg.com/profile_images/786681705981673472/T5OKNZ1-.jpg" width="25px"></a>
+        <a href="https://www.twitter.com" target="_blank">
+        <img src="http://goinkscape.com/wp-content/uploads/2015/07/twitter-logo-final.png" width="22px"></a>
+    </span>
+    </footer>
+</body>
+
+</html>
