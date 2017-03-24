@@ -1,6 +1,6 @@
 # Web-Dev-Midterm-Project
 
-[Live Hosted Site](huiiwah.me)
+[Live Hosted Site (If the above link does not work, please visit the website at "huiiwah.me")](huiiwah.me)
 <!--If the above link does not work, please visit the website at "huiiwah.me"-->
 
 [Link to Documentation](http://sites.bxmc.poly.edu/~huiwahchiang/webdev/index.php/blog/)
