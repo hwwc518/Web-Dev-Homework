@@ -1,7 +1,7 @@
 body {
   background: url(images/marble_background.jpg) no-repeat center;
   background-size: 100%;
-  margin-top:-20px;
+/*  margin-top:-20px;*/
 }
 
 h1, p {
@@ -38,7 +38,7 @@ h1 {
   padding: 0.3em;
   margin: 3% auto;
   transition: transform .5s;
-  transform:  scale(2);
+  transform: scale(2);
 }
 
 .blue-wins {

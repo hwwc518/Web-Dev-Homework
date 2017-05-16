@@ -94,7 +94,7 @@ $(function() {
     $button3Id.on('click', function(){
       for (var i = 0; i < column3.length; i++) {
         if (column3[i].hasClass('teal-token') || column3[i].hasClass('blue-token')) {
-          console.log('space is taken');
+          console.log('space is being used');
         } else {
           toggleFunction(column3[i]);
           break;
@@ -105,7 +105,7 @@ $(function() {
     $button4Id.on('click', function(){
       for (var i = 0; i < column4.length; i++) {
         if (column4[i].hasClass('teal-token') || column4[i].hasClass('blue-token')) {
-          console.log('space is taken');
+          console.log('space is being used');
         } else {
           toggleFunction(column4[i]);
           break;
@@ -116,7 +116,7 @@ $(function() {
     $button5Id.on('click', function(){
       for (var i = 0; i < column5.length; i++) {
         if (column5[i].hasClass('teal-token') || column5[i].hasClass('blue-token')) {
-          console.log('space is taken');
+          console.log('space is being used');
         } else {
           toggleFunction(column5[i]);
           break;
@@ -127,7 +127,7 @@ $(function() {
     $button6Id.on('click', function(){
       for (var i = 0; i < column6.length; i++) {
         if (column6[i].hasClass('teal-token') || column6[i].hasClass('blue-token')) {
-          console.log('space is taken');
+          console.log('space is being used');
         } else {
           toggleFunction(column6[i]);
           break;
@@ -138,7 +138,7 @@ $(function() {
     $button7Id.on('click', function(){
       for (var i = 0; i < column7.length; i++) {
         if (column7[i].hasClass('teal-token') || column7[i].hasClass('blue-token')) {
-          console.log('space is taken');
+          console.log('space is being used');
         } else {
           toggleFunction(column7[i]);
           break;
@@ -239,7 +239,7 @@ var winsChecker = function() {
       $('#27').hasClass('teal-token') && $('#19').hasClass('teal-token') && $('#11').hasClass('teal-token') && $('#3').hasClass('teal-token')) {
           $nextTurn.text("Teal Wins!");
           $nextTurn.css('color', 'white');
-          $nextTurn.addClass('teal_wins');
+          $nextTurn.addClass('teal-wins');
 
   } else if (
       // horizontal row #1
