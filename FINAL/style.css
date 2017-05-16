@@ -1,0 +1,150 @@
+body {
+  background: url(images/marble_background.jpg) no-repeat center;
+  background-size: 100%;
+    margin-top:-20px
+}
+
+h1, p {
+  text-align: center;
+}
+/*
+p {
+  font-size: 2em;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 0.3em;
+  color: #1cbbba;
+  animation-name: winning;
+  animation-duration: 4s;
+} */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+/*Maybe add drop animation later?*/
+.start-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  padding-top: 0.3em;
+  color: #1cbbba;
+}
+
+.teal-wins {
+  background-color: #1cbbba;
+  color: white;
+  width: 6em;
+  padding: 0.3em;
+  margin: 3% auto;
+  transition: transform .5s;
+  transform:  scale(2);
+}
+
+.blue-wins {
+  background-color: #0054A6;
+  color: white;
+  width: 6em;
+  padding: 0.3em;
+  margin: 3% auto;
+  transition: transform .5s;
+  transform: scale(2);
+}
+
+.container {
+  width: 46em;
+  margin: auto;
+  display: block;
+  /* background-color: blue; */
+}
+
+.drop-button {
+  display: inline-block;
+  background-color: transparent;
+  color: #ED3D88;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.6em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin: 1.5%;
+  padding: 0 1.3em;
+  border: none;
+}
+
+.drop-button:hover {
+  color: darkgrey;
+}
+
+#board {
+  width: 45em;
+  height: 40em;
+  margin: 1% auto;
+  display: block;
+  border: 1em solid pink;
+  border-radius: 5%;
+  background-color: pink;
+  box-shadow: 10px 10px 5px gray;
+}
+/*#board {
+  width: 364px;
+  height: 312px;
+  margin: 5% auto;
+  display: block;
+  background-color: blue;
+}
+*/
+.circle {
+  background: #F0F0F0;
+  width: 3.7em;
+  height: 3.7em;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 1%;
+  padding: 2%;
+
+}
+
+.shadow {
+  box-shadow: inset 8px 5px 5px #636363;
+}
+
+.teal-token {
+  background: #1cbbba;
+  width: 3.7em;
+  height: 3.7em;
+  border-radius: 50%;
+  margin: 1%;
+  padding: 2%;
+  box-shadow: inset 3px 1px 1px #636363;
+}
+
+.blue-token {
+  background: #0054A6;
+  width: 3.7em;
+  height: 3.7em;
+  border-radius: 50%;
+  margin: 1%;
+  padding: 2%;
+  box-shadow: inset 3px 2px 2px #4C4C4C;
+}
+/* Reset board buttons
+#Clear-board {
+  margin: 4% auto;
+  display: block;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 3em;
+  background-color: #ED3D88;
+  border: none;
+  color: white;
+}
+
+#Clear-board:hover {
+  background-color: darkgrey;
+  color: white;
+}
+*/
